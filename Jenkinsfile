@@ -30,8 +30,8 @@ pipeline {
         stage("Push the changed deployment file to Git") {
             steps {
                 sh """
-  git config --global user.name "Ashfaque-9x"
-  git config --global user.email "ashfaque.s510@gmail.com"
+  git config --global user.name "Binank-1987"
+  git config --global user.email "binank1987@gmail.com"
   git add deployment.yaml
   if git diff --cached --quiet; then
     echo "No changes to commit"
